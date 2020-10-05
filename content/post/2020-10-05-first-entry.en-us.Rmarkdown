@@ -14,4 +14,4 @@ keywords:
 
 Deneme
 
-![](/post/2020-10-05-first-entry.en-us_files/ballot.png)
+{{< wide-image src="/img/DSC_0132.JPG" title="[title text]" >}}
