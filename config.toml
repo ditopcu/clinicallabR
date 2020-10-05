@@ -15,7 +15,7 @@
 baseURL = "https://denizt.com"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "Hugo tranquilpeak theme"
+title = "Data Science Blog for Clinical Laboratories"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-123-45"
@@ -31,19 +31,18 @@ canonifyurls = true
   archive = "archives"
 
 [author]
-  name = "Firstname Lastname"
+  name = "Deniz İlhan Topcu"
   bio = "Super bio with markdown support **COOL**"
-  job = "Your job title"
-  location = "France"
+  job = "Clinical Biochemistry Specialist"
+  location = "Trukey"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-  gravatarEmail = "thibaud.lepretre@gmail.com"
+  gravatarEmail = ""
   # Your profile picture
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
-  picture = "https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
+  picture = "images/city-750.jpg" # https://cdn1.iconfinder.com/data/icons/ninja-things-1/1772/ninja-simple-512.png"
   # Your Twitter username without the @. E.g : thibaudlepretre
   # twitter = "thibaudlepretre"
-  # Your google plus profile id. E.g : +ThibaudLepretre or 114625208755123718311
-  # googlePlus = "+ThibaudLepretre"
+
 
 # Menu Configuration
 [[menu.main]]
@@ -82,13 +81,8 @@ canonifyurls = true
   identifier = "github"
   name = "GitHub"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
-  url = "https://github.com/kakawait"
-[[menu.links]]
-  weight = 2
-  identifier = "stackoverflow"
-  name = "Stack Overflow"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-stack-overflow\"></i>"
-  url = "https://stackoverflow.com/users/636472/kakawait"
+  url = "https://github.com/ditopcu"
+
 
 [[menu.misc]]
   weight = 1
@@ -118,16 +112,16 @@ canonifyurls = true
   # If false it will flat categories.
   hierarchicalCategories = true
 
-  description = "Hugo tranquilpeak theme demo"
+  description = "dit blog"
 
-  # Customization
+  # Customization all lower screen (default)
+  # 2: Display large sidebar on large screen, medium sidebar on medium screen and
+  #    header bar on small screen and large sidebar is swiped
+  # 3: Display medium sidebar on large and medium screen and header bar on s
   # Define the behavior of the sidebar
   # 1: Display extra large sidebar on extra large screen, large sidebar on large screen,
   #    medium sidebar on medium screen and header bar on small screen and
-  # extra large sidebar is swiped on extra large screen and large sidebar on all lower screen (default)
-  # 2: Display large sidebar on large screen, medium sidebar on medium screen and
-  #    header bar on small screen and large sidebar is swiped
-  # 3: Display medium sidebar on large and medium screen and header bar on small screen and
+  # extra large sidebar is swiped on extra large screen and large sidebar onmall screen and
   #    medium sidebar is swiped
   # 4: Display header bar on all screens, extra large sidebar is swiped on extra large screen and
   #    large sidebar is swiped on all lower screens
@@ -141,7 +135,7 @@ canonifyurls = true
   # Current image is on AWS S3 and delivered by AWS CloudFront.
   # Otherwise put your image, for example `cover.jpg` in folder `static/images/`,
   # and use relative url : `images/cover.jpg`
-  coverImage = "images/cover.jpg"
+  coverImage = "img/DSC_0161.JPG"
 
   # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
   imageGallery = true
@@ -158,7 +152,7 @@ canonifyurls = true
   autoThumbnailImage = true
 
   # Your favicon path, default is "/favicon.png"
-  # favicon = "/favicon.png"
+  favicon = "/favicon.png"
 
   # Header configuration
   # The link at the right of the header is customizable
@@ -186,20 +180,20 @@ canonifyurls = true
   # Comment and uncomment to enable or disable sharing options
   # If you wanna add a sharing option, read user documentation :
   # Tranquilpeak configuration > Theme configuration > sharing-options
-  [[params.sharingOptions]]
-    name = "Facebook"
-    icon = "fa-facebook-official"
-    url = "https://www.facebook.com/sharer/sharer.php?u=%s"
+  #[[params.sharingOptions]]
+  ##  name = "Facebook"
+  ###  icon = "fa-facebook-official"
+  #  url = "https://www.facebook.com/sharer/sharer.php?u=%s"
 
-  [[params.sharingOptions]]
-    name = "Twitter"
-    icon = "fa-twitter"
-    url = "https://twitter.com/intent/tweet?text=%s"
+  #[[params.sharingOptions]]
+  #  name = "Twitter"
+  #  icon = "fa-twitter"
+  #  url = "https://twitter.com/intent/tweet?text=%s"
 
-  [[params.sharingOptions]]
-    name = "Google+"
-    icon = "fa-google-plus"
-    url = "https://plus.google.com/share?url=%s"
+  #[[params.sharingOptions]]
+  #  name = "Google+"
+  #  icon = "fa-google-plus"
+  #  url = "https://plus.google.com/share?url=%s"
 
   [params.header.rightLink]
     class = ""
