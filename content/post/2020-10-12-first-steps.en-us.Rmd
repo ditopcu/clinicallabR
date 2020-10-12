@@ -9,7 +9,7 @@ keywords:
   - tech
 ---
 
-<!--more-->
+
 
 
 Let's start with calculating mean, SD and CV for glucose IQC Level 1
