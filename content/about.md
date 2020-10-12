@@ -11,6 +11,5 @@ showActions:    false
 ---
 
 
-**DENEME**
+**About me...**
 
-{{< wide-image src="/img/DSC_0132.JPG" title="[title text]" >}}

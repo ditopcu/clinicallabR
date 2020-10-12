@@ -32,7 +32,7 @@ canonifyurls = true
 
 [author]
   name = "Deniz I. Topcu"
-  bio = "Biochemistry Specialist / R user "
+  bio = "Biochemistry Specialist / R user" 
   job = ""
   location = "Turkey"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
