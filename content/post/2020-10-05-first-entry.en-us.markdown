@@ -1,5 +1,5 @@
 ---
-title: First Entry
+title: First Entry 
 author: Deniz
 date: '2020-10-05'
 slug: first-entry.en-us
@@ -12,6 +12,4 @@ keywords:
 
 <!--more-->
 
-Deneme
-
-{{< wide-image src="/img/DSC_0132.JPG" title="[title text]" >}}
+-First Empty Page-

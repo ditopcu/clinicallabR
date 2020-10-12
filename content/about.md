@@ -11,5 +11,10 @@ showActions:    false
 ---
 
 
-**About me...**
+**Summary**  
+Specialist in medical biochemistry who thrives varying interdisciplinary projects which involves clinical laboratory and computer sciences  
 
+
+
+ 
+ 

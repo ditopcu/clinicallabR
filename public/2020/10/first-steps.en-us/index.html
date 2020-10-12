@@ -8,33 +8,39 @@
 <meta name="generator" content="Hugo 0.75.1 with theme Tranquilpeak 0.4.8-BETA">
 <meta name="author" content="Deniz I. Topcu">
 <meta name="keywords" content="tech">
-<meta name="description" content="Summary
-Specialist in medical biochemistry who thrives varying interdisciplinary projects which involves clinical laboratory and computer sciences">
+<meta name="description" content="
 
 
-<meta property="og:description" content="Summary
-Specialist in medical biochemistry who thrives varying interdisciplinary projects which involves clinical laboratory and computer sciences">
+">
+
+
+<meta property="og:description" content="
+
+
+">
 <meta property="og:type" content="article">
-<meta property="og:title" content="About">
-<meta name="twitter:title" content="About">
-<meta property="og:url" content="/about/">
-<meta property="twitter:url" content="/about/">
+<meta property="og:title" content="First Steps - Calculate Mean, SD and, CV">
+<meta name="twitter:title" content="First Steps - Calculate Mean, SD and, CV">
+<meta property="og:url" content="/2020/10/first-steps.en-us/">
+<meta property="twitter:url" content="/2020/10/first-steps.en-us/">
 <meta property="og:site_name" content="Data Science Blog for Clinical Laboratories">
-<meta property="og:description" content="Summary
-Specialist in medical biochemistry who thrives varying interdisciplinary projects which involves clinical laboratory and computer sciences">
-<meta name="twitter:description" content="Summary
-Specialist in medical biochemistry who thrives varying interdisciplinary projects which involves clinical laboratory and computer sciences">
+<meta property="og:description" content="
+
+
+">
+<meta name="twitter:description" content="
+
+
+">
 <meta property="og:locale" content="en-us">
 
   
+    <meta property="article:published_time" content="2020-10-12T00:00:00">
   
   
+    <meta property="article:modified_time" content="2020-10-12T00:00:00">
   
-    
-      <meta property="article:section" content="category">
-    
-      <meta property="article:section" content="subcategory">
-    
+  
   
   
 
@@ -55,14 +61,14 @@ Specialist in medical biochemistry who thrives varying interdisciplinary project
   <meta property="twitter:image" content="/img/profile_pic_m.jpg">
 
 
-    <title>About</title>
+    <title>First Steps - Calculate Mean, SD and, CV</title>
 
     <link rel="icon" href="/favicon.png">
     
 
     
 
-    <link rel="canonical" href="/about/">
+    <link rel="canonical" href="/2020/10/first-steps.en-us/">
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
@@ -82,7 +88,7 @@ Specialist in medical biochemistry who thrives varying interdisciplinary project
 
   <body>
     <div id="blog">
-      <header id="header" data-behavior="1">
+      <header id="header" data-behavior="4">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
     <a class="header-title-link" href="/">Data Science Blog for Clinical Laboratories</a>
@@ -102,7 +108,7 @@ Specialist in medical biochemistry who thrives varying interdisciplinary project
   
 </header>
 
-      <nav id="sidebar" data-behavior="1">
+      <nav id="sidebar" data-behavior="4">
   <div class="sidebar-container">
     
       <div class="sidebar-profile">
@@ -202,7 +208,7 @@ Specialist in medical biochemistry who thrives varying interdisciplinary project
 
       
 
-      <div id="main" data-behavior="1"
+      <div id="main" data-behavior="4"
         class="
                hasCoverMetaIn
                ">
@@ -212,16 +218,47 @@ Specialist in medical biochemistry who thrives varying interdisciplinary project
             <div class="post-header main-content-wrap text-left">
   
     <h1 class="post-title" itemprop="headline">
-      About
+      First Steps - Calculate Mean, SD and, CV
     </h1>
   
   
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2020-10-12T00:00:00Z">
+        
+  October 12, 2020
+
+      </time>
+    
+    
+  </div>
+
 </div>
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
-              <p><strong>Summary</strong><br>
-Specialist in medical biochemistry who thrives varying interdisciplinary projects which involves clinical laboratory and computer sciences</p>
+              <p>Let’s start with calculating mean, SD and CV for glucose IQC Level 1</p>
+<pre class="r"><code># Some arbitrary glucose IQC results --&gt; Level 1
+
+glucose_L1 &lt;- c(101, 111, 103, 98, 100, 106, 103, 94, 90, 102, 98, 100, 97, 107, 98, 106, 107, 87, 100, 107)
+
+# We are creating variable named &quot;glucose_mean_L1&quot; and assigning calculated mean to this variable
+glucose_L1_mean &lt;- mean(glucose_L1)
+
+#print Mean
+glucose_L1_mean</code></pre>
+<pre><code>## [1] 100.75</code></pre>
+<pre class="r"><code># We are creating variable named &quot;glucos_sd_L1&quot; and assigning calculated SD  to this variable
+glucos_L1_sd &lt;- sd(glucose_L1)
+#print SD
+glucos_L1_sd</code></pre>
+<pre><code>## [1] 5.972525</code></pre>
+<pre class="r"><code>#Now Calculate CV = sd/mean*100
+
+glucose_L1_CV &lt;- (glucos_L1_sd / glucose_L1_mean) * 100 </code></pre>
+<p>Glucose mean is <strong>100.75</strong> mg/dL.<br />
+SD is <strong>5.9725248</strong> mg/dL and<br />
+CV is <strong>5.9280643</strong> .</p>
 
               
             </div>
@@ -232,8 +269,61 @@ Specialist in medical biochemistry who thrives varying interdisciplinary project
             
             <div class="post-actions-wrap">
   
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/2020/10/first-entry.en-us/" data-tooltip="First Entry">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  
 </div>
 
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
             
           </div>
         </article>
@@ -244,13 +334,60 @@ Specialist in medical biochemistry who thrives varying interdisciplinary project
 </footer>
 
       </div>
-      <div id="bottom-bar" class="post-bottom-bar" data-behavior="1">
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
         <div class="post-actions-wrap">
+  
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="/2020/10/first-entry.en-us/" data-tooltip="First Entry">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
   
 </div>
 
       </div>
-      <div id="share-options-bar" class="share-options-bar" data-behavior="1">
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
   <i id="btn-close-shareoptions" class="fa fa-close"></i>
   <ul class="share-options">
     
@@ -319,6 +456,30 @@ function updateMinWidth() {
 </script>
 
 
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = '\/2020\/10\/first-steps.en-us\/';
+          
+            this.page.identifier = '\/2020\/10\/first-steps.en-us\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'hugo-tranquilpeak-theme';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
   
 
 
