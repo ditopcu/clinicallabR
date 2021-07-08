@@ -3,53 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
+    <loc>https://denizt.com/</loc>
+    <lastmod>2021-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://denizt.com/2021/07/post-2/</loc>
+    <lastmod>2021-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://denizt.com/post/</loc>
+    <lastmod>2021-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://denizt.com/2020/10/first-steps.en-us/</loc>
     <lastmod>2020-10-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2020/10/first-steps.en-us/</loc>
-    <lastmod>2020-10-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-10-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
+    <loc>https://denizt.com/categories/</loc>
     <lastmod>2020-10-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/data-science-qc/</loc>
+    <loc>https://denizt.com/categories/data-science-qc/</loc>
     <lastmod>2020-10-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2020/10/first-entry.en-us/</loc>
+    <loc>https://denizt.com/2020/10/first-entry.en-us/</loc>
     <lastmod>2020-10-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>https://denizt.com/about/</loc>
   </url>
   
   <url>
-    <loc>/archives/</loc>
+    <loc>https://denizt.com/archives/</loc>
   </url>
   
   <url>
-    <loc>/categories/category/</loc>
+    <loc>https://denizt.com/categories/category/</loc>
   </url>
   
   <url>
-    <loc>/categories/subcategory/</loc>
+    <loc>https://denizt.com/categories/subcategory/</loc>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://denizt.com/tags/</loc>
   </url>
   
 </urlset>

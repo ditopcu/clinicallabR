@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Data Science Blog for Clinical Laboratories</title>
-    <link>/categories/</link>
+    <link>https://denizt.com/categories/</link>
     <description>Recent content in Categories on Data Science Blog for Clinical Laboratories</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://denizt.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>data science qc</title>
-      <link>/categories/data-science-qc/</link>
+      <link>https://denizt.com/categories/data-science-qc/</link>
       <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/data-science-qc/</guid>
+      <guid>https://denizt.com/categories/data-science-qc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>category</title>
-      <link>/categories/category/</link>
+      <link>https://denizt.com/categories/category/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/categories/category/</guid>
+      <guid>https://denizt.com/categories/category/</guid>
       <description></description>
     </item>
     
     <item>
       <title>subcategory</title>
-      <link>/categories/subcategory/</link>
+      <link>https://denizt.com/categories/subcategory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/categories/subcategory/</guid>
+      <guid>https://denizt.com/categories/subcategory/</guid>
       <description></description>
     </item>
     
