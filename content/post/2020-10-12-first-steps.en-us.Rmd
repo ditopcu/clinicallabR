@@ -12,7 +12,7 @@ keywords:
 
 
 
-Let's start with calculating mean, SD and CV for glucose IQC Level 1
+Let's start with calculating mean, SD and CV for glucose IQC Level 11
 
 ```{r}
 
